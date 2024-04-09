@@ -32,77 +32,197 @@ app.post("/send", (req, res) => {
                     //     Email: 'softpk@gmail.com'
                     // }
                 ],
-                Subject: 'Hope u r doing well!',
-                TextPart: 'Hope you are doing well',
-                HTMLPart: `<!DOCTYPE html>
-<html lang="en">
+                Subject: 'Test 1 through mailjet',
+                TextPart: 'Testing',
+                HTMLPart: `<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newsletter</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+	<meta name=Generator content="Microsoft Word 15 (filtered)">
+	<style>
+		<!--
+		/* Font Definitions */
+		@font-face {
+			font-family: "Cambria Math";
+			panose-1: 2 4 5 3 5 4 6 3 2 4;
+		}
 
-        .container {
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+		@font-face {
+			font-family: Calibri;
+			panose-1: 2 15 5 2 2 2 4 3 2 4;
+		}
 
-        h1 {
-            color: #333;
-            text-align: center;
-        }
+		@font-face {
+			font-family: Cambria;
+			panose-1: 2 4 5 3 5 4 6 3 2 4;
+		}
 
-        p {
-            color: #666;
-            line-height: 1.6;
-        }
+		@font-face {
+			font-family: Aptos;
+		}
 
-        .button {
-            display: inline-block;
-            background-color: #ff6600;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-        }
+		.WordSection1 {
+			padding: 40px;
+		}
 
-        .button:hover {
-            background-color: #cc5500;
-        }
+		/* Style Definitions */
+		p.MsoNormal,
+		li.MsoNormal,
+		div.MsoNormal {
+			margin-top: 0in;
+			margin-right: 0in;
+			margin-bottom: 8.0pt;
+			margin-left: 0in;
+			line-height: 115%;
+			font-size: 12.0pt;
+			font-family: "Aptos", sans-serif;
+		}
 
-        .footer {
-            margin-top: 20px;
-            text-align: center;
-            color: #999;
-        }
-    </style>
+		p.MsoFootnoteText,
+		li.MsoFootnoteText,
+		div.MsoFootnoteText {
+			mso-style-link: "Footnote Text Char";
+			margin: 0in;
+			font-size: 10.0pt;
+			font-family: "Aptos", sans-serif;
+			padding: 40px;
+		}
+
+		p.MsoHeader,
+		li.MsoHeader,
+		div.MsoHeader {
+			mso-style-link: "Header Char";
+			margin: 0in;
+			font-size: 12.0pt;
+			font-family: "Aptos", sans-serif;
+		}
+
+
+		.FootnoteTextChar {
+			mso-style-name: "Footnote Text Char";
+			mso-style-link: "Footnote Text";
+		}
+
+		.MsoChpDefault {
+			font-size: 12.0pt;
+			font-family: "Aptos", sans-serif;
+		}
+
+		/* Page Definitions */
+		@page WordSection1 {
+			size: 8.5in 11.0in;
+			margin: 1.0in 1.0in 1.0in 1.0in;
+		}
+
+		div.WordSection1 {
+			page: WordSection1;
+		}
+
+		.logo {
+			margin-right: 20px;
+			/* Add this line */
+			width: auto;
+			/* Adjust width as per your requirement */
+			height: auto;
+			/* Maintain aspect ratio */
+		}
+		-->
+	</style>
+
 </head>
+
 <body>
-    <div class="container">
-        <h1>Weekly Newsletter</h1>
-        <p>Hello there,</p>
-        <p>This is our weekly newsletter to keep you updated with the latest news and events at our cafe. Here's what's happening:</p>
-        <ul>
-            <li>New seasonal drinks added to the menu</li>
-            <li>Live music every Friday night</li>
-            <li>Special discount for loyalty members</li>
-        </ul>
-        <p>Don't miss out on the fun! Visit us this week and enjoy a cup of your favorite beverage.</p>
-        <p>See you soon!</p>
-        <p><a href="https://in.pinterest.com/" class="button">Visit Our Website</a></p>
-        <p class="footer">You are receiving this email because you subscribed to our newsletter. <br>If you wish to unsubscribe, <a href="#">click here</a>.</p>
-    </div>
+
+	<div class=WordSection1>
+		<img class="logo" src="logo.png" alt="">
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><b><span
+					style='font-family:"Cambria",serif'>&nbsp;</span></b></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+				style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+				style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+		<p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
+line-height:normal'><b><span style='font-family:"Cambria",serif'>Heart failure patients
+					often avoid discussing OAB with their physicians</span></b></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+				style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span style='font-family:"Cambria",serif'>A
+				recent study found nearly half (41%) of heart failure
+				patients prescribed loop diuretics did not report OAB symptoms, such as urgency
+				and incontinence<u> </u>to their physicians. Many of these <b>patients suffer
+					in silence</b> and <b>accept the negative impact</b> <b>this has on their
+					quality of life</b>. </span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+				style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+				style='font-family:"Cambria",serif'>Communicating with patients about worsening
+				OAB symptoms with the use of a loop diuretic and offering alternative treatment
+				options could <b>help alleviate their embarrassment and improve their daily
+					routine</b>. </span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+				style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span style='font-family:"Cambria",serif'>Tell
+				your patients about SOAANZ, a<b>
+					novel, slow-release formulation of torsemide</b>. It may help in alleviating
+				OAB symptoms, reducing excessive urination, and providing a longer duration of
+				peak effects.</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+				style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span style='font-family:"Cambria",serif'>For
+				free samples, please contact us at
+				1-866-4-SOAANZ.</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+				style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span style='font-family:"Cambria",serif'>Thank
+				you.<br>
+				<br>
+			</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span style='font-family:"Cambria",serif'><br>
+				SOAANZ Commercial Team</span></p>
+
+		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+				style='font-family:"Cambria",serif'>Vienna, VA</span></p>
+
+	</div>
+
+
+
 </body>
+<footer>
+	<div><br clear=all>
+
+		<hr align=center size=1 width="80%">
+
+		<div id=ftn1>
+
+			<p class=MsoFootnoteText>
+				<span style='font-size:8.0pt;font-family:"Cambria",serif'>Examining the Impact
+					of Loop Diuretic-induced Overactive Bladder on Quality of Life in Heart Failure
+					Patients: Physician and Patient Perspectives. Skai Pan, PharmD, MPH; Eunhee,
+					Kim, PharmD 2021; Sun Jin Lee, PharmD 2024 candidate; Tina Nguyen, PharmD 2024
+					candidate; Salim Shah, PhD; Anandi V. Law, B.Pharm, MS, PhD, FAPhA. Wester
+					University of Health Sciences College of Pharmacy.</span>
+			</p>
+
+		</div>
+
+	</div>
+</footer>
+
 </html>` ,
             },
         ],
