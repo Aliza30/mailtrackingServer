@@ -134,7 +134,7 @@ app.post("/send", (req, res) => {
 <body>
 
 	<div class=WordSection1>
-		<img class="logo" src="logo.png" alt="">
+		<img class="logo" src="Sarfez doc/logo.png" alt="">
 		<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><b><span
 					style='font-family:"Cambria",serif'>&nbsp;</span></b></p>
 
